@@ -1,0 +1,192 @@
+{
+    "instruction": "Instruction: Write an accurate, engaging, and concise answer for the given question. Use an unbiased and journalistic tone. ",
+    "demo_sep": "\n\n\n",
+    "demo_prompt": "{INST}\n\nQuestion: {Q}\n\nAnswer: {A}",
+    "doc_prompt": "Document [{ID}](Title: {T}): {P}\n",
+    "demos": [
+      {
+        "question": "Luật Quy hoạch đô thị số 30/2009/QH12 có hiệu lực từ ngày nào?",
+        "answer": "Luật Quy hoạch đô thị số 30/2009/QH12 ngày 17 tháng 6 năm 2009 của Quốc hội có hiệu lực kể từ ngày 01 tháng 01 năm 2010.",
+        "docs": [
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "VĂN PHÒNG QUỐC HỘI\n--------\tCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc \n---------------\nSố: 16/VBHN-VPQH\tHà Nội, ngày 15 tháng 7 năm 2020\n \nLUẬT\nQUY HOẠCH ĐÔ THỊ\nLuật Quy hoạch đô thị số 30/2009/QH12 ngày 17 tháng 6 năm 2009 của Quốc hội, có hiệu lực kể từ ngày 01 tháng 01 năm 2010, được sửa đổi, bổ sung bởi:\n1. Luật Tổ chức chính quyền địa phương số 77/2015/QH13 ngày 19 tháng 6 năm 2015 của Quốc hội, có hiệu lực kể từ ngày 01 tháng 01 năm 2016;"
+          }
+        ]
+      },
+      {
+        "question": "Đô thị mới là gì theo Luật Quy hoạch đô thị?",
+        "answer": "Theo Luật Quy hoạch đô thị, đô thị mới là đô thị dự kiến hình thành trong tương lai theo quy hoạch hệ thống đô thị và nông thôn, được đầu tư xây dựng từng bước đạt các tiêu chí của đô thị theo quy định của pháp luật.",
+        "docs": [
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "Đô thị mới là đô thị dự kiến hình thành trong tương lai theo quy hoạch hệ thống đô thị và nông thôn, được đầu tư xây dựng từng bước đạt các tiêu chí của đô thị theo quy định của pháp luật."
+          }
+        ]
+      },
+      {
+        "question": "Quy hoạch chi tiết là gì và nhằm mục đích gì?",
+        "answer": "Quy hoạch chi tiết là việc phân chia và xác định chỉ tiêu sử dụng đất quy hoạch đô thị, yêu cầu quản lý kiến trúc, cảnh quan của từng lô đất. Quy hoạch này nhằm cụ thể hóa nội dung của quy hoạch phân khu hoặc quy hoạch chung.",
+        "docs": [
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "Quy hoạch chi tiết là việc phân chia và xác định chỉ tiêu sử dụng đất quy hoạch đô thị, yêu cầu quản lý kiến trúc, cảnh quan của từng lô đất;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "bố trí công trình hạ tầng kỹ thuật, công trình hạ tầng xã hội nhằm cụ thể hóa nội dung của quy hoạch phân khu hoặc quy hoạch chung."
+          }
+        ]
+      },
+      {
+        "question": "Đô thị được phân thành mấy loại và dựa trên các tiêu chí cơ bản nào?",
+        "answer": "Đô thị được phân thành 6 loại gồm loại đặc biệt, loại I, loại II, loại III, loại IV và loại V. Việc phân loại này dựa trên các tiêu chí cơ bản sau: vị trí, chức năng, vai trò, cơ cấu và trình độ phát triển kinh tế - xã hội của đô thị; quy mô dân số; mật độ dân số; tỷ lệ lao động phi nông nghiệp; và trình độ phát triển cơ sở hạ tầng.",
+        "docs": [
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "Điều 4. Phân loại đô thị[5]\n1. Đô thị được phân thành 6 loại gồm loại đặc biệt, loại I, loại II, loại III, loại IV và loại V theo các tiêu chí cơ bản sau đây:\na) Vị trí, chức năng, vai trò, cơ cấu và trình độ phát triển kinh tế - xã hội của đô thị;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "b) Quy mô dân số;\nc) Mật độ dân số;\nd) Tỷ lệ lao động phi nông nghiệp;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "đ) Trình độ phát triển cơ sở hạ tầng.\n2. Chính phủ trình Ủy ban Thường vụ Quốc hội quy định cụ thể việc phân loại đô thị phù hợp từng giai đoạn phát triển kinh tế - xã hội."
+          }
+        ]
+      },
+      {
+        "question": "Luật Quy hoạch đô thị quy định những yêu cầu nào đối với quy hoạch đô thị?",
+        "answer": "Luật Quy hoạch đô thị quy định một số yêu cầu đối với quy hoạch đô thị, bao gồm: cụ thể hóa quy hoạch hệ thống đô thị và nông thôn, quy hoạch vùng, quy hoạch tỉnh; phù hợp với chiến lược phát triển kinh tế - xã hội, quốc phòng, an ninh; phù hợp với quy hoạch cấp quốc gia, quy hoạch vùng, quy hoạch tỉnh; bảo đảm công khai, minh bạch và kết hợp hài hòa giữa lợi ích quốc gia, cộng đồng và cá nhân. Quy hoạch cũng cần dự báo khoa học, đáp ứng yêu cầu thực tế và phù hợp xu thế phát triển của đô thị; tuân thủ quy chuẩn về quy hoạch đô thị và các quy chuẩn liên quan. Ngoài ra, cần bảo vệ môi trường, phòng ngừa hiểm họa, cải thiện cảnh quan, bảo tồn di tích văn hóa, lịch sử và nét đặc trưng địa phương thông qua đánh giá môi trường chiến lược. Đồng thời, khai thác và sử dụng hợp lý tài nguyên thiên nhiên, hạn chế sử dụng đất nông nghiệp, sử dụng tiết kiệm và hiệu quả đất đô thị. Quy hoạch phải đảm bảo tính đồng bộ về không gian kiến trúc, hạ tầng xã hội, hạ tầng kỹ thuật và không gian ngầm; phát triển hài hòa giữa các khu vực. Cuối cùng, đáp ứng nhu cầu sử dụng nhà ở, công trình công cộng và hạ tầng kỹ thuật.",
+        "docs": [
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "Cụ thể hóa quy hoạch hệ thống đô thị và nông thôn, quy hoạch vùng, quy hoạch tỉnh;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "phù hợp với chiến lược phát triển kinh tế - xã hội, quốc phòng, an ninh;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "phù hợp với quy hoạch cấp quốc gia, quy hoạch vùng, quy hoạch tỉnh;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "bảo đảm công khai, minh bạch và kết hợp hài hòa giữa lợi ích quốc gia, cộng đồng và cá nhân."
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "2. Dự báo khoa học, đáp ứng được yêu cầu thực tế và phù hợp với xu thế phát triển của đô thị;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "tuân thủ quy chuẩn về quy hoạch đô thị và quy chuẩn khác có liên quan."
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "3. Bảo vệ môi trường, phòng ngừa hiểm họa ảnh hưởng đến cộng đồng, cải thiện cảnh quan, bảo tồn các di tích văn hóa, lịch sử và nét đặc trưng địa phương thông qua việc đánh giá môi trường chiến lược trong quá trình lập quy hoạch đô thị."
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "4. Khai thác và sử dụng hợp lý tài nguyên thiên nhiên, hạn chế sử dụng đất nông nghiệp, sử dụng tiết kiệm và hiệu quả đất đô thị nhằm tạo ra nguồn lực phát triển đô thị, tăng trưởng kinh tế, bảo đảm an sinh xã hội, quốc phòng, an ninh và phát triển bền vững."
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "5. Bảo đảm tính đồng bộ về không gian kiến trúc, hệ thống hạ tầng xã hội, hạ tầng kỹ thuật đô thị và không gian ngầm;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "phát triển hài hòa giữa các khu vực trong đô thị."
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "6. Đáp ứng nhu cầu sử dụng nhà ở, công trình y tế, giáo dục, văn hóa, thể thao, thương mại, công viên, cây xanh, mặt nước và công trình hạ tầng xã hội khác."
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "7. Đáp ứng nhu cầu sử dụng hạ tầng kỹ thuật gồm hệ thống giao thông, cung cấp năng lượng, chiếu sáng công cộng, cấp nước, thoát nước, xử lý chất thải, thông tin liên lạc và các công trình hạ tầng kỹ thuật khác;"
+          }
+        ]
+      },
+      {
+        "question": "Thẩm quyền phê duyệt nhiệm vụ và đồ án quy hoạch đô thị nào thuộc về Thủ tướng Chính phủ?",
+        "answer": "Thủ tướng Chính phủ phê duyệt nhiệm vụ và đồ án quy hoạch đô thị sau đây: Quy hoạch chung thành phố trực thuộc Trung ương, quy hoạch chung thành phố thuộc tỉnh là đô thị loại I, quy hoạch chung đô thị mới có quy mô dân số dự báo tương đương với đô thị loại III trở lên và đô thị mới có phạm vi quy hoạch liên quan đến địa giới hành chính của hai tỉnh trở lên; Quy hoạch chuyên ngành hạ tầng kỹ thuật đô thị của thành phố trực thuộc Trung ương là đô thị loại đặc biệt; và Quy hoạch chung, quy hoạch phân khu, quy hoạch chi tiết của khu vực có ý nghĩa đặc biệt quan trọng về chính trị, kinh tế - xã hội, văn hóa, lịch sử của quốc gia theo quy định của Chính phủ.",
+        "docs": [
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "Điều 44. Thẩm quyền phê duyệt nhiệm vụ và đồ án quy hoạch đô thị[21] \n1. Thủ tướng Chính phủ phê duyệt nhiệm vụ và đồ án quy hoạch đô thị sau đây:\na) Quy hoạch chung thành phố trực thuộc Trung ương, quy hoạch chung thành phố thuộc tỉnh là đô thị loại I, quy hoạch chung đô thị mới có quy mô dân số dự báo tương đương với đô thị loại III trở lên và đô thị mới có phạm vi quy hoạch liên quan đến địa giới hành chính của hai tỉnh trở lên;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "b) Quy hoạch chuyên ngành hạ tầng kỹ thuật đô thị của thành phố trực thuộc Trung ương là đô thị loại đặc biệt;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "c) Quy hoạch chung, quy hoạch phân khu, quy hoạch chi tiết của khu vực có ý nghĩa đặc biệt quan trọng về chính trị, kinh tế - xã hội, văn hóa, lịch sử của quốc gia theo quy định của Chính phủ."
+          }
+        ]
+      },
+      {
+        "question": "Quy hoạch đô thị chỉ được điều chỉnh khi có những trường hợp nào?",
+        "answer": "Quy hoạch đô thị chỉ được điều chỉnh khi có một trong các trường hợp sau: Có sự điều chỉnh về chiến lược phát triển kinh tế - xã hội, quốc phòng, an ninh, quy hoạch cấp quốc gia, quy hoạch vùng, quy hoạch tỉnh hoặc điều chỉnh về địa giới hành chính làm ảnh hưởng lớn đến tính chất, chức năng, quy mô của đô thị hoặc khu vực lập quy hoạch; Hình thành các dự án trọng điểm có ý nghĩa quốc gia làm ảnh hưởng lớn đến sử dụng đất, môi trường, bố cục không gian kiến trúc đô thị; Quy hoạch đô thị không thực hiện được hoặc việc triển khai thực hiện gây ảnh hưởng xấu đến sự phát triển kinh tế - xã hội, quốc phòng, an ninh, an sinh xã hội và môi trường sinh thái, di tích lịch sử, văn hóa được xác định thông qua việc rà soát, đánh giá thực hiện quy hoạch đô thị và ý kiến cộng đồng; Có sự biến động về điều kiện khí hậu, địa chất, thủy văn; hoặc Phục vụ lợi ích quốc gia và lợi ích cộng đồng.",
+        "docs": [
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "Có sự điều chỉnh về chiến lược phát triển kinh tế - xã hội, quốc phòng, an ninh, quy hoạch cấp quốc gia, quy hoạch vùng, quy hoạch tỉnh hoặc điều chỉnh về địa giới hành chính làm ảnh hưởng lớn đến tính chất, chức năng, quy mô của đô thị hoặc khu vực lập quy hoạch;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "2. Hình thành các dự án trọng điểm có ý nghĩa quốc gia làm ảnh hưởng lớn đến sử dụng đất, môi trường, bố cục không gian kiến trúc đô thị;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "3. Quy hoạch đô thị không thực hiện được hoặc việc triển khai thực hiện gây ảnh hưởng xấu đến sự phát triển kinh tế - xã hội, quốc phòng, an ninh, an sinh xã hội và môi trường sinh thái, di tích lịch sử, văn hóa được xác định thông qua việc rà soát, đánh giá thực hiện quy hoạch đô thị và ý kiến cộng đồng;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "4. Có sự biến động về điều kiện khí hậu, địa chất, thủy văn;"
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "5. Phục vụ lợi ích quốc gia và lợi ích cộng đồng."
+          }
+        ]
+      },
+      {
+        "question": "Nội dung quản lý nhà nước về quy hoạch đô thị bao gồm những gì?",
+        "answer": "Nội dung quản lý nhà nước về quy hoạch đô thị bao gồm: Xây dựng và chỉ đạo thực hiện định hướng, chiến lược phát triển đô thị; Ban hành và tổ chức thực hiện văn bản quy phạm pháp luật về quản lý hoạt động quy hoạch đô thị; Ban hành quy chuẩn, tiêu chuẩn về quy hoạch đô thị, quy chế quản lý kiến trúc; Quản lý hoạt động quy hoạch đô thị; Tuyên truyền, phổ biến, giáo dục pháp luật và thông tin về quy hoạch đô thị; Tổ chức, quản lý hoạt động đào tạo, bồi dưỡng nguồn nhân lực, nghiên cứu, ứng dụng khoa học và công nghệ trong hoạt động quy hoạch đô thị; Hợp tác quốc tế trong hoạt động quy hoạch đô thị; và Kiểm tra, thanh tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm trong hoạt động quy hoạch đô thị.",
+        "docs": [
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "Điều 13. Nội dung quản lý nhà nước về quy hoạch đô thị\n1. Xây dựng và chỉ đạo thực hiện định hướng, chiến lược phát triển đô thị."
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "2. Ban hành và tổ chức thực hiện văn bản quy phạm pháp luật về quản lý hoạt động quy hoạch đô thị."
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "3. Ban hành quy chuẩn, tiêu chuẩn về quy hoạch đô thị, quy chế quản lý kiến trúc[10]."
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "4. Quản lý hoạt động quy hoạch đô thị.\n5. Tuyên truyền, phổ biến, giáo dục pháp luật và thông tin về quy hoạch đô thị."
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "6. Tổ chức, quản lý hoạt động đào tạo, bồi dưỡng nguồn nhân lực, nghiên cứu, ứng dụng khoa học và công nghệ trong hoạt động quy hoạch đô thị."
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "7. Hợp tác quốc tế trong hoạt động quy hoạch đô thị."
+          },
+          {
+            "title": "VĂN PHÒNG QUỐC HỘI - LUẬT QUY HOẠCH ĐÔ THỊ",
+            "text": "8. Kiểm tra, thanh tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm trong hoạt động quy hoạch đô thị."
+          }
+        ]
+      }
+    ]
+  }
