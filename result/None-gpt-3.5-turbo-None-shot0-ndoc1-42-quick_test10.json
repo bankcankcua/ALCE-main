@@ -1,0 +1,718 @@
+{
+    "args": {
+        "config": null,
+        "prompt_file": "prompts/qampari_closedbook.json",
+        "eval_file": "data/qampari_eval_dpr_top100.json",
+        "quick_test": 10,
+        "ndoc": 1,
+        "shot": 0,
+        "seed": 42,
+        "no_doc_in_demo": false,
+        "fewer_doc_in_demo": false,
+        "ndoc_in_demo": null,
+        "dataset_name": null,
+        "tag": null,
+        "model": "gpt-3.5-turbo",
+        "openai_api": true,
+        "azure": false,
+        "temperature": 0.5,
+        "top_p": 1.0,
+        "max_new_tokens": 300,
+        "max_length": 4096,
+        "num_samples": 1,
+        "use_shorter": null,
+        "interactive": false,
+        
+        "interactive_query": null,
+        "retriever": null,
+        "retriever_device": "cuda",
+        "retrieve_in_all_docs": false,
+        "max_turn": 10,
+        "max_doc_show": 3,
+        "force_cite_show": false
+    },
+    "data": [
+        {
+            "id": "870__wikidata_simple__dev",
+            "question": "For which movie was Orson Welles responsible for production?",
+            "answers": [
+                [
+                    "Moby Dick"
+                ],
+                [
+                    "Mr. Arkadin"
+                ],
+                [
+                    "The Other Side of the Wind"
+                ],
+                [
+                    "In the Land of Don Quixote"
+                ],
+                [
+                    "Orson Welles' Magic Show"
+                ],
+                [
+                    "The Magnificent Ambersons"
+                ],
+                [
+                    "Citizen Kane"
+                ],
+                [
+                    "It's All True"
+                ],
+                [
+                    "Filming The Trial"
+                ],
+                [
+                    "The Dreamers"
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "wiki:297592",
+                    "title": "Orson Welles",
+                    "text": "1970 and 1976. Co-written by Welles and Oja Kodar, it is the story of an aging film director (John Huston) looking for funds to complete his final film. The cast includes Peter Bogdanovich, Susan Strasberg, Norman Foster, Edmond O'Brien, Cameron Mitchell and Dennis Hopper. Financed by Iranian backers, ownership of the film fell into a legal quagmire after the Shah of Iran was deposed. The legal disputes kept the film in its unfinished state until early 2017, and was finally released in November 2018. Welles portrayed Louis XVIII of France in the 1970 film \"Waterloo\", and narrated the beginning and",
+                    "score": "76.865036",
+                    "has_answer": false
+                }
+            ],
+            "answer": "Moby Dick, Mr. Arkadin, The Other Side of the Wind, In the Land of Don Quixote, Orson Welles' Magic Show, The Magnificent Ambersons, Citizen Kane, It's All True, Filming The Trial, The Dreamers.",
+            "prompt": "Instruction: Provide a list of accurate answers for the given question. Separate answers by commas. For questions that have more than 5 answers, write at least 5 answers.\n\nQuestion: For which movie was Orson Welles responsible for production?\n\nAnswer:",
+            "output": "1. Citizen Kane\n2. The Magnificent Ambersons\n3. Touch of Evil\n4. The Trial\n5. Chimes at Midnight"
+        },
+        {
+            "id": "18__wikitables_composition__dev",
+            "question": "Which Olympic venue hosted both short track speed skating and figure skating?",
+            "answers": [
+                [
+                    "La halle de glace Olympique"
+                ],
+                [
+                    "White Ring"
+                ],
+                [
+                    "Palavela"
+                ],
+                [
+                    "Pacific Coliseum"
+                ],
+                [
+                    "Iceberg Skating Palace"
+                ],
+                [
+                    "Gangneung Ice Arena"
+                ],
+                [
+                    "Capital Indoor Stadium"
+                ],
+                [
+                    "Mediolanum Forum"
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "wiki:379537",
+                    "title": "Speed skating",
+                    "text": "winter sport. The sport enjoys large popularity in the Netherlands, Norway and South Korea. There are top international rinks in a number of other countries, including Canada, the United States, Germany, Italy, Japan, Russia and Kazakhstan. A World Cup circuit is held with events in those countries plus two events in the Thialf ice hall in Heerenveen, Netherlands. The standard rink for long track is 400 meters long, but tracks of 200, 250 and 333 meters are used occasionally. It is one of two Olympic forms of the sport and the one with the longer history. International Skating Union rules",
+                    "score": "81.549515",
+                    "has_answer": false
+                }
+            ],
+            "answer": "La halle de glace Olympique, White Ring, Palavela, Pacific Coliseum, Iceberg Skating Palace, Gangneung Ice Arena, Capital Indoor Stadium, Mediolanum Forum.",
+            "prompt": "Instruction: Provide a list of accurate answers for the given question. Separate answers by commas. For questions that have more than 5 answers, write at least 5 answers.\n\nQuestion: Which Olympic venue hosted both short track speed skating and figure skating?\n\nAnswer:",
+            "output": "Gangneung Ice Arena, Pyeongchang Olympic Plaza, Gangneung Oval, Gangneung Hockey Centre, Kwandong Hockey Centre"
+        },
+        {
+            "id": "787__wikidata_simple__dev",
+            "question": "The Haitian Revolution was lead by what person?",
+            "answers": [
+                [
+                    "Jean-Jacques Dessalines"
+                ],
+                [
+                    "Andre Rigaud"
+                ],
+                [
+                    "Fran\u00e7ois Capois"
+                ],
+                [
+                    "Sanit\u00e9 B\u00e9lair"
+                ],
+                [
+                    "Jean-Baptiste Sans-Souci"
+                ],
+                [
+                    "Jeannot"
+                ],
+                [
+                    "Toussaint Louverture"
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "wiki:3786452",
+                    "title": "Haitian Revolution",
+                    "text": "and the whites. This added to the tense climate between slaves and grands blancs. Raynal's prediction came true on the night of 21 August 1791, when the slaves of Saint Domingue rose in revolt; thousands of slaves attended a secret vodou (voodoo) ceremony as a tropical storm came in - the lighting and the thunder was taken as auspicious omens - and later that night, the slaves began to kill their masters and plunged the colony into civil war. The signal to begin the revolt was given by Dutty Boukman, a high priest of vodou and leader of the Maroon",
+                    "score": "84.84309",
+                    "has_answer": false
+                }
+            ],
+            "answer": "Jean-Jacques Dessalines, Andre Rigaud, Fran\u00e7ois Capois, Sanit\u00e9 B\u00e9lair, Jean-Baptiste Sans-Souci, Jeannot, Toussaint Louverture.",
+            "prompt": "Instruction: Provide a list of accurate answers for the given question. Separate answers by commas. For questions that have more than 5 answers, write at least 5 answers.\n\nQuestion: The Haitian Revolution was lead by what person?\n\nAnswer:",
+            "output": "The Haitian Revolution was led by Toussaint Louverture, Jean-Jacques Dessalines, Henri Christophe, Alexandre P\u00e9tion, and Charles Leclerc."
+        },
+        {
+            "id": "433__wikidata_intersection__dev",
+            "question": "Which film with songs written by G. Devarajan had direction by J. Sasikumar?",
+            "answers": [
+                [
+                    "Kanmanikal"
+                ],
+                [
+                    "Velutha Kathreena"
+                ],
+                [
+                    "Ormayil Nee Maathram"
+                ],
+                [
+                    "Panchamrutham"
+                ],
+                [
+                    "Randu Lokam"
+                ],
+                [
+                    "Alibabayum 41 Kallanmaarum"
+                ],
+                [
+                    "Mudramothiram"
+                ],
+                [
+                    "Madrasile Mon"
+                ],
+                [
+                    "Theekkali"
+                ],
+                [
+                    "Kavalam Chundan"
+                ],
+                [
+                    "Maravil Thirivu Sookshikkuka"
+                ],
+                [
+                    "Keni"
+                ],
+                [
+                    "Nivedyam"
+                ],
+                [
+                    "Pancha Thanthram"
+                ],
+                [
+                    "Prakadanam"
+                ],
+                [
+                    "Lakshmi"
+                ],
+                [
+                    "Chathurvedam"
+                ],
+                [
+                    "Sakhakkale Munnoottu"
+                ],
+                [
+                    "Thaniniram"
+                ],
+                [
+                    "Kaattaruvi"
+                ],
+                [
+                    "Vellayani Paramu"
+                ],
+                [
+                    "Sethubandhanam"
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "wiki:7610222",
+                    "title": "Thiruvilaiyadal",
+                    "text": "Thiruvilaiyadal Thiruvilaiyadal () is a 1965 Indian Tamil-language Hindu devotional film written, directed and co-produced by A. P. Nagarajan. The film features Sivaji Ganesan, Savitri, and K. B. Sundarambal in the lead roles, with T. S. Balaiah, R. Muthuraman, Nagesh, T. R. Mahalingam, K. Sarangapani, Devika, Manorama, and Nagarajan in supporting roles. K. V. Mahadevan composed the film's soundtrack and score, and Kannadasan and Sankaradas Swamigal wrote the song lyrics. Co-produced by A. M. Shahul Hameed, it was inspired by the \"Thiruvilaiyadal Puranam\": a collection of sixty-four Shaivite devotional, epic stories, written in the 16th century by Paranjothi Munivar, which",
+                    "score": "84.74855",
+                    "has_answer": false
+                }
+            ],
+            "answer": "Kanmanikal, Velutha Kathreena, Ormayil Nee Maathram, Panchamrutham, Randu Lokam, Alibabayum 41 Kallanmaarum, Mudramothiram, Madrasile Mon, Theekkali, Kavalam Chundan, Maravil Thirivu Sookshikkuka, Keni, Nivedyam, Pancha Thanthram, Prakadanam, Lakshmi, Chathurvedam, Sakhakkale Munnoottu, Thaniniram, Kaattaruvi, Vellayani Paramu, Sethubandhanam.",
+            "prompt": "Instruction: Provide a list of accurate answers for the given question. Separate answers by commas. For questions that have more than 5 answers, write at least 5 answers.\n\nQuestion: Which film with songs written by G. Devarajan had direction by J. Sasikumar?\n\nAnswer:",
+            "output": "1. \"Chembarathi\" (1972),\n2. \"Othenente Makan\" (1970),\n3. \"Moodalmanju\" (1969),\n4. \"Kuttikkuppayam\" (1964),\n5. \"Kaliyalla Kalyanam\" (1968)"
+        },
+        {
+            "id": "1358__wikidata_simple__dev",
+            "question": "Which football team is based out of County Galway?",
+            "answers": [
+                [
+                    "Milltown GAA"
+                ],
+                [
+                    "Turloughmore GAA"
+                ],
+                [
+                    "Aran Islands GAA"
+                ],
+                [
+                    "Barna GAC"
+                ],
+                [
+                    "Caherlistrane GAC"
+                ],
+                [
+                    "Kilnadeema-Leitrim GAA"
+                ],
+                [
+                    "Corofin GAA"
+                ],
+                [
+                    "Abbeyknockmoy GAA"
+                ],
+                [
+                    "Ardrahan GAA"
+                ],
+                [
+                    "Caltra GAC"
+                ],
+                [
+                    "Meelick-Eyrecourt"
+                ],
+                [
+                    "Menlough GAA"
+                ],
+                [
+                    "Salthill-Knocknacarra GAA"
+                ],
+                [
+                    "St. Thomas' GAA"
+                ],
+                [
+                    "Killanin GAA"
+                ],
+                [
+                    "Tynagh-Abbey/Duniry GAA"
+                ],
+                [
+                    "Kiltormer GAA"
+                ],
+                [
+                    "Athenry GAA"
+                ],
+                [
+                    "Bearna/Na Forbacha GAA"
+                ],
+                [
+                    "Cumann Peile Na bPiarsaigh"
+                ],
+                [
+                    "Kinvara GAA"
+                ],
+                [
+                    "Loughrea GAA"
+                ],
+                [
+                    "Monivea Abbeyknockmoy GAA"
+                ],
+                [
+                    "Oranmore-Maree GAA"
+                ],
+                [
+                    "P\u00e1draig Pearse's GAA"
+                ],
+                [
+                    "St. James GAA"
+                ],
+                [
+                    "Kilconly GAA"
+                ],
+                [
+                    "CLG Naomh Anna, Leitir M\u00f3ir"
+                ],
+                [
+                    "Claregalway CLG"
+                ],
+                [
+                    "Dunmore McHales"
+                ],
+                [
+                    "Father Griffins GAA"
+                ],
+                [
+                    "Killererin GAA"
+                ],
+                [
+                    "Tuam Stars GAA"
+                ],
+                [
+                    "Tommy Larkin's GAA"
+                ],
+                [
+                    "Carnmore GAA"
+                ],
+                [
+                    "Clarinbridge GAA"
+                ],
+                [
+                    "Mountbellew-Moylough GAA"
+                ],
+                [
+                    "Moycullen GAA"
+                ],
+                [
+                    "St. Grellan's GFC"
+                ],
+                [
+                    "Killimordaly GAA"
+                ],
+                [
+                    "Portumna GAA"
+                ],
+                [
+                    "Ballinasloe GAA"
+                ],
+                [
+                    "Beagh GAA"
+                ],
+                [
+                    "Cortoon Shamrocks GAA"
+                ],
+                [
+                    "Craughwell GAA"
+                ],
+                [
+                    "Gort GAA"
+                ],
+                [
+                    "Liam Mellows GAA"
+                ],
+                [
+                    "Mullagh GAA"
+                ],
+                [
+                    "Annaghdown GAA"
+                ],
+                [
+                    "Cappataggle GAA"
+                ],
+                [
+                    "Carraroe GAA"
+                ],
+                [
+                    "Castlegar GAA"
+                ],
+                [
+                    "Glenamaddy GAA"
+                ],
+                [
+                    "Kilkerrin-Clonberne GAA"
+                ],
+                [
+                    "M\u00edche\u00e1l Breathnach CLG"
+                ],
+                [
+                    "Rahoon-Newcastle GAA"
+                ],
+                [
+                    "Sarsfields GAA"
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "wiki:923237",
+                    "title": "Galway",
+                    "text": "force a replay, the first since 1959, which they eventually lost. In 2017 Galway lifted the Liam MacCarthy Cup for the first time in 29 years beating Waterford by 0-26 to 2-17. The footballers compete annually in the All-Ireland Senior Football Championship for the Sam Maguire Cup. The gaelic footballers have won the cup nine times with the most recent being in 2001. Galway United FC is based in the city and plays in the League of Ireland Premier Division. The team plays its home games at Eamonn Deacy Park. The club was formed in 2013 and first competed in",
+                    "score": "80.28388",
+                    "has_answer": false
+                }
+            ],
+            "answer": "Milltown GAA, Turloughmore GAA, Aran Islands GAA, Barna GAC, Caherlistrane GAC, Kilnadeema-Leitrim GAA, Corofin GAA, Abbeyknockmoy GAA, Ardrahan GAA, Caltra GAC, Meelick-Eyrecourt, Menlough GAA, Salthill-Knocknacarra GAA, St. Thomas' GAA, Killanin GAA, Tynagh-Abbey/Duniry GAA, Kiltormer GAA, Athenry GAA, Bearna/Na Forbacha GAA, Cumann Peile Na bPiarsaigh, Kinvara GAA, Loughrea GAA, Monivea Abbeyknockmoy GAA, Oranmore-Maree GAA, P\u00e1draig Pearse's GAA, St. James GAA, Kilconly GAA, CLG Naomh Anna, Leitir M\u00f3ir, Claregalway CLG, Dunmore McHales, Father Griffins GAA, Killererin GAA, Tuam Stars GAA, Tommy Larkin's GAA, Carnmore GAA, Clarinbridge GAA, Mountbellew-Moylough GAA, Moycullen GAA, St. Grellan's GFC, Killimordaly GAA, Portumna GAA, Ballinasloe GAA, Beagh GAA, Cortoon Shamrocks GAA, Craughwell GAA, Gort GAA, Liam Mellows GAA, Mullagh GAA, Annaghdown GAA, Cappataggle GAA, Carraroe GAA, Castlegar GAA, Glenamaddy GAA, Kilkerrin-Clonberne GAA, M\u00edche\u00e1l Breathnach CLG, Rahoon-Newcastle GAA, Sarsfields GAA.",
+            "prompt": "Instruction: Provide a list of accurate answers for the given question. Separate answers by commas. For questions that have more than 5 answers, write at least 5 answers.\n\nQuestion: Which football team is based out of County Galway?\n\nAnswer:",
+            "output": "Galway United FC, Salthill Devon FC, Mervue United AFC, West United FC, Corofin United AFC"
+        },
+        {
+            "id": "946__wikidata_simple__dev",
+            "question": "What are the songs that Fred Fisher compose?",
+            "answers": [
+                [
+                    "Chicago (That Toddling Town)"
+                ],
+                [
+                    "Oui, Oui, Marie"
+                ],
+                [
+                    "I'd Rather Be Blue"
+                ],
+                [
+                    "Peg o' My Heart"
+                ],
+                [
+                    "Lorraine"
+                ],
+                [
+                    "Your Feet's Too Big"
+                ],
+                [
+                    "That's When Your Heartaches Begin"
+                ],
+                [
+                    "Whispering Grass"
+                ],
+                [
+                    "Happy Days and Lonely Nights"
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "wiki:10246132",
+                    "title": "Janeen Brady",
+                    "text": "Janeen Brady Janeen Jacobs Brady (born 1934) is a composer, lyricist, and publisher of children's music, patriotic songs, educational music, and religious songs and hymns. She has also authored cantatas, musical comedies, musical dramas, and roadshows. She and her husband, Ted Brady, founded Brite Music, Inc. She has composed and produced over 40 full-length albums and her songs have sold over 6 million copies. Born Janeen Jacobs, she was the eldest of Owen S. and Agnes Jacobs' 11 children. She started piano lessons at the age of 4. In the first grade, when the teacher was having a difficult time",
+                    "score": "73.68891",
+                    "has_answer": false
+                }
+            ],
+            "answer": "Chicago (That Toddling Town), Oui, Oui, Marie, I'd Rather Be Blue, Peg o' My Heart, Lorraine, Your Feet's Too Big, That's When Your Heartaches Begin, Whispering Grass, Happy Days and Lonely Nights.",
+            "prompt": "Instruction: Provide a list of accurate answers for the given question. Separate answers by commas. For questions that have more than 5 answers, write at least 5 answers.\n\nQuestion: What are the songs that Fred Fisher compose?\n\nAnswer:",
+            "output": "\"Dardanella,\" \"Peg o' My Heart,\" \"Chicago (That Toddlin' Town),\" \"Come Josephine in My Flying Machine,\" \"They Go Wild, Simply Wild, Over Me\""
+        },
+        {
+            "id": "128__wikidata_comp__dev",
+            "question": "Who directed a TV show whose script was written by Evan Reilly?",
+            "answers": [
+                [
+                    "Clark Johnson"
+                ],
+                [
+                    "Lesli Linka Glatter"
+                ],
+                [
+                    "Guy Ferland"
+                ],
+                [
+                    "Stefan Schwartz"
+                ],
+                [
+                    "Billy Gierhart"
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "wiki:13141376",
+                    "title": "Nick Antosca",
+                    "text": "draft. In early 2017, the project was scrapped altogether. Nick Antosca Nick Antosca (born January 23, 1983) is an American novelist, screenwriter and producer. His novels include \"Fires\" (2006), \"Midnight Picnic\" (2009), and \"The Girlfriend Game\" (2013). He is also the creator and showrunner of the horror anthology television series \"Channel Zero\" (2016\u2013present). Antosca was born in New Orleans, Louisiana and currently lives in Los Angeles, California. He graduated from Yale University in 2005. Antosca's influences include James Salter, John Fowles, Alicia Erian, Peter Straub, John Crowley, and William Sleator. Antosca's writing has appeared in anthologies, literary journals, newspapers, and",
+                    "score": "74.489365",
+                    "has_answer": false
+                }
+            ],
+            "answer": "Clark Johnson, Lesli Linka Glatter, Guy Ferland, Stefan Schwartz, Billy Gierhart.",
+            "prompt": "Instruction: Provide a list of accurate answers for the given question. Separate answers by commas. For questions that have more than 5 answers, write at least 5 answers.\n\nQuestion: Who directed a TV show whose script was written by Evan Reilly?\n\nAnswer:",
+            "output": "The TV show \"Kingdom\" was directed by various directors, including Evan Reilly."
+        },
+        {
+            "id": "489__wikitables_simple__dev",
+            "question": "What are the different professional wrestling streaming services ?",
+            "answers": [
+                [
+                    "FITE TV https://www.fite.tv/join/ "
+                ],
+                [
+                    "Honor Club"
+                ],
+                [
+                    "IMPACT Plus"
+                ],
+                [
+                    "New Japan Pro-Wrestling World"
+                ],
+                [
+                    "WWE Network"
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "wiki:20384901",
+                    "title": "Global Wrestling Network",
+                    "text": "Global Wrestling Network Global Wrestling Network (GWN) is a video streaming service and mobile app owned by Anthem Wrestling Exhibitions, a subsidiary of Anthem Sports & Entertainment and parent company of Impact Wrestling. It primarily features content from the Impact video library, along with original programming and content from independent and international promotions. The first service to stream Total Nonstop Action Wrestling (TNA) content on-demand happened in 2009, when the company launched its own 'TNA Video Vault'. The service changed its name to 'TNA On Demand' in 2010 and ran up until around early 2013. The company also launched the",
+                    "score": "79.10269",
+                    "has_answer": false
+                }
+            ],
+            "answer": "FITE TV https://www.fite.tv/join/ , Honor Club, IMPACT Plus, New Japan Pro-Wrestling World, WWE Network.",
+            "prompt": "Instruction: Provide a list of accurate answers for the given question. Separate answers by commas. For questions that have more than 5 answers, write at least 5 answers.\n\nQuestion: What are the different professional wrestling streaming services ?\n\nAnswer:",
+            "output": "1. WWE Network,\n2. New Japan Pro-Wrestling World,\n3. Impact Plus,\n4. All Elite Wrestling (AEW) Plus,\n5. Ring of Honor Honor Club."
+        },
+        {
+            "id": "309__wikidata_intersection__dev",
+            "question": "What kind of event was the FA Cup Final that had the Aston Villa F.C. participating in it?",
+            "answers": [
+                [
+                    "2015 FA Cup Final"
+                ],
+                [
+                    "2000 FA Cup Final"
+                ],
+                [
+                    "1895 FA Cup Final"
+                ],
+                [
+                    "1905 FA Cup Final"
+                ],
+                [
+                    "1957 FA Cup Final"
+                ],
+                [
+                    "1892 FA Cup Final"
+                ],
+                [
+                    "1897 FA Cup Final"
+                ],
+                [
+                    "1913 FA Cup Final"
+                ],
+                [
+                    "1887 FA Cup Final"
+                ],
+                [
+                    "1920 FA Cup Final"
+                ],
+                [
+                    "1924 FA Cup Final"
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "wiki:9594772",
+                    "title": "1924 FA Cup Final",
+                    "text": "1924 FA Cup Final The 1924 FA Cup Final was contested by Newcastle United and Aston Villa at Wembley. Newcastle won 2\u20130, the goals scored by Neil Harris and Stan Seymour. The match has become commonly known as the \"Rainy Day\" final due to the weather that day, a consequence of which has led to there being very few good condition programmes left for the game. (Many fans used their match programmes as makeshift umbrellas.) The value of the programme is the highest for any Wembley final with recent sales attaining over \u00a36,000 at auction. The referee was Swindon-born William",
+                    "score": "77.61066",
+                    "has_answer": true
+                }
+            ],
+            "answer": "2015 FA Cup Final, 2000 FA Cup Final, 1895 FA Cup Final, 1905 FA Cup Final, 1957 FA Cup Final, 1892 FA Cup Final, 1897 FA Cup Final, 1913 FA Cup Final, 1887 FA Cup Final, 1920 FA Cup Final, 1924 FA Cup Final.",
+            "prompt": "Instruction: Provide a list of accurate answers for the given question. Separate answers by commas. For questions that have more than 5 answers, write at least 5 answers.\n\nQuestion: What kind of event was the FA Cup Final that had the Aston Villa F.C. participating in it?\n\nAnswer:",
+            "output": "The FA Cup Final that had Aston Villa F.C. participating in it was a football (soccer) event."
+        },
+        {
+            "id": "1002__wikidata_comp__dev",
+            "question": "Where are the headquarters of areas that are a non metropolitan Roman Catholic archdiocese?",
+            "answers": [
+                [
+                    "Isfahan"
+                ],
+                [
+                    "Acerenza"
+                ],
+                [
+                    "Singapore"
+                ],
+                [
+                    "Trani"
+                ],
+                [
+                    "Brindisi"
+                ],
+                [
+                    "Spoleto"
+                ],
+                [
+                    "Rhodes"
+                ],
+                [
+                    "Zadar"
+                ],
+                [
+                    "Baghdad"
+                ],
+                [
+                    "Capua"
+                ],
+                [
+                    "Matera"
+                ],
+                [
+                    "Monaco"
+                ],
+                [
+                    "Vaduz"
+                ],
+                [
+                    "Luxembourg"
+                ],
+                [
+                    "Rabat"
+                ],
+                [
+                    "Tunis"
+                ],
+                [
+                    "Camerino"
+                ],
+                [
+                    "Avignon"
+                ],
+                [
+                    "Alba Iulia"
+                ],
+                [
+                    "Otranto"
+                ],
+                [
+                    "Athens"
+                ],
+                [
+                    "Aix-en-Provence"
+                ],
+                [
+                    "Ferrara"
+                ],
+                [
+                    "Hobart"
+                ],
+                [
+                    "Tangier"
+                ],
+                [
+                    "Gaeta"
+                ],
+                [
+                    "Canberra"
+                ],
+                [
+                    "Trnava"
+                ],
+                [
+                    "Sens"
+                ],
+                [
+                    "Lucca"
+                ],
+                [
+                    "Urbino"
+                ],
+                [
+                    "Winnipeg"
+                ],
+                [
+                    "Lanciano"
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "wiki:19928349",
+                    "title": "Ecclesiastical region",
+                    "text": "Ecclesiastical region An ecclesiastical region (Latin - \"regio ecclesiastica\") is a formally organised geographical group of dioceses, ecclesiastical provinces or parishes, without a proper Ordinary as such, in Catholic or Protestant Churches. Apart from historical other uses, there are presently ecclesiastical regions, grouping parts of the extensive episcopate in five Catholic countries, in Italy and both Americas. The equivalent 'apostolic regions' in France, created in 1961, were suppressed in 2004. The Roman Catholic Church in Italy, the Pope's home country as Bishop of Rome, is divided into 16 ecclesiastical regions (created in, reorganized in ), mostly corresponding to the 20",
+                    "score": "85.54901",
+                    "has_answer": false
+                }
+            ],
+            "answer": "Isfahan, Acerenza, Singapore, Trani, Brindisi, Spoleto, Rhodes, Zadar, Baghdad, Capua, Matera, Monaco, Vaduz, Luxembourg, Rabat, Tunis, Camerino, Avignon, Alba Iulia, Otranto, Athens, Aix-en-Provence, Ferrara, Hobart, Tangier, Gaeta, Canberra, Trnava, Sens, Lucca, Urbino, Winnipeg, Lanciano.",
+            "prompt": "Instruction: Provide a list of accurate answers for the given question. Separate answers by commas. For questions that have more than 5 answers, write at least 5 answers.\n\nQuestion: Where are the headquarters of areas that are a non metropolitan Roman Catholic archdiocese?\n\nAnswer:",
+            "output": "1. Boston, Massachusetts, USA\n2. Los Angeles, California, USA\n3. Sydney, Australia\n4. Montreal, Quebec, Canada\n5. Munich, Germany"
+        }
+    ],
+    "total_cost": 0.00186
+}

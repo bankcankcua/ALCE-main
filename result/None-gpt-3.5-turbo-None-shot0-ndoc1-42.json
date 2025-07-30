@@ -1,0 +1,204 @@
+{
+    "args": {
+        "config": null,
+        "prompt_file": "prompts/qampari_VANPHONGQUOCHOI.json",
+        "eval_file": "data/VANPHONGQUOCHOI.json",
+        "quick_test": null,
+        "ndoc": 1,
+        "shot": 0,
+        "seed": 42,
+        "no_doc_in_demo": false,
+        "fewer_doc_in_demo": false,
+        "ndoc_in_demo": null,
+        "dataset_name": null,
+        "tag": null,
+        "model": "gpt-3.5-turbo",
+        "openai_api": true,
+        "azure": false,
+        "temperature": 0.5,
+        "top_p": 1.0,
+        "max_new_tokens": 300,
+        "max_length": 4096,
+        "num_samples": 1,
+        "use_shorter": null,
+        "interactive": false,
+        "interactive_query": null,
+        "retriever": null,
+        "retriever_device": "cuda",
+        "retrieve_in_all_docs": false,
+        "max_turn": 10,
+        "max_doc_show": 3,
+        "force_cite_show": false
+    },
+    "data": [
+        {
+            "id": "LUAT_QH_DT_001",
+            "question": "Lu\u1eadt Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb s\u1ed1 30/2009/QH12 c\u00f3 hi\u1ec7u l\u1ef1c thi h\u00e0nh t\u1eeb ng\u00e0y n\u00e0o?",
+            "answer": [
+                [
+                    "Lu\u1eadt Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb s\u1ed1 30/2009/QH12 ng\u00e0y 17 th\u00e1ng 6 n\u0103m 2009 c\u1ee7a Qu\u1ed1c h\u1ed9i, c\u00f3 hi\u1ec7u l\u1ef1c k\u1ec3 t\u1eeb ng\u00e0y 01 th\u00e1ng 01 n\u0103m 2010."
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "1",
+                    "title": "V\u0102N PH\u00d2NG QU\u1ed0C H\u1ed8I - LU\u1eacT QUY HO\u1ea0CH \u0110\u00d4 TH\u1eca",
+                    "text": "V\u0102N PH\u00d2NG QU\u1ed0C H\u1ed8I\n--------\tC\u1ed8NG H\u00d2A X\u00c3 H\u1ed8I CH\u1ee6 NGH\u0128A VI\u1ec6T NAM\n\u0110\u1ed9c l\u1eadp - T\u1ef1 do - H\u1ea1nh ph\u00fac \n---------------\nS\u1ed1: 16/VBHN-VPQH\tH\u00e0 N\u1ed9i, ng\u00e0y 15 th\u00e1ng 7 n\u0103m 2020\n \nLU\u1eacT\nQUY HO\u1ea0CH \u0110\u00d4 TH\u1eca\nLu\u1eadt Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb s\u1ed1 30/2009/QH12 ng\u00e0y 17 th\u00e1ng 6 n\u0103m 2009 c\u1ee7a Qu\u1ed1c h\u1ed9i, c\u00f3 hi\u1ec7u l\u1ef1c k\u1ec3 t\u1eeb ng\u00e0y 01 th\u00e1ng 01 n\u0103m 2010, \u0111\u01b0\u1ee3c s\u1eeda \u0111\u1ed5i, b\u1ed5 sung b\u1edfi:\n1. Lu\u1eadt T\u1ed5 ch\u1ee9c ch\u00ednh quy\u1ec1n \u0111\u1ecba ph\u01b0\u01a1ng s\u1ed1 77/2015/QH13 ng\u00e0y 19 th\u00e1ng 6 n\u0103m 2015 c\u1ee7a Qu\u1ed1c h\u1ed9i, c\u00f3 hi\u1ec7u l\u1ef1c k\u1ec3 t\u1eeb ng\u00e0y 01 th\u00e1ng 01 n\u0103m 2016;",
+                    "score": 1.0,
+                    "summary": "Th\u00f4ng tin v\u1ec1 ng\u00e0y hi\u1ec7u l\u1ef1c c\u1ee7a Lu\u1eadt Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb s\u1ed1 30/2009/QH12.",
+                    "extraction": "Lu\u1eadt Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb s\u1ed1 30/2009/QH12 ng\u00e0y 17 th\u00e1ng 6 n\u0103m 2009 c\u1ee7a Qu\u1ed1c h\u1ed9i, c\u00f3 hi\u1ec7u l\u1ef1c k\u1ec3 t\u1eeb ng\u00e0y 01 th\u00e1ng 01 n\u0103m 2010"
+                }
+            ],
+            "prompt": "Instruction: Write an accurate, engaging, and concise answer for the given question. Use an unbiased and journalistic tone. \n\nQuestion: Lu\u1eadt Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb s\u1ed1 30/2009/QH12 c\u00f3 hi\u1ec7u l\u1ef1c thi h\u00e0nh t\u1eeb ng\u00e0y n\u00e0o?\n\nAnswer:",
+            "output": "The Urban Planning Law No. 30/2009/QH12 of Vietnam came into effect on January 1, 2010. This law aims to regulate urban planning activities, ensuring sustainable development and efficient land use in urban areas."
+        },
+        {
+            "id": "LUAT_QH_DT_002",
+            "question": "\u0110\u00f4 th\u1ecb m\u1edbi \u0111\u01b0\u1ee3c \u0111\u1ecbnh ngh\u0129a nh\u01b0 th\u1ebf n\u00e0o trong Lu\u1eadt Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb?",
+            "answer": [
+                [
+                    "\u0110\u00f4 th\u1ecb m\u1edbi l\u00e0 \u0111\u00f4 th\u1ecb d\u1ef1 ki\u1ebfn h\u00ecnh th\u00e0nh trong t\u01b0\u01a1ng lai theo quy ho\u1ea1ch h\u1ec7 th\u1ed1ng \u0111\u00f4 th\u1ecb v\u00e0 n\u00f4ng th\u00f4n, \u0111\u01b0\u1ee3c \u0111\u1ea7u t\u01b0 x\u00e2y d\u1ef1ng t\u1eebng b\u01b0\u1edbc \u0111\u1ea1t c\u00e1c ti\u00eau ch\u00ed c\u1ee7a \u0111\u00f4 th\u1ecb theo quy \u0111\u1ecbnh c\u1ee7a ph\u00e1p lu\u1eadt."
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "9",
+                    "title": "V\u0102N PH\u00d2NG QU\u1ed0C H\u1ed8I - LU\u1eacT QUY HO\u1ea0CH \u0110\u00d4 TH\u1eca",
+                    "text": "\u0110\u00f4 th\u1ecb m\u1edbi l\u00e0 \u0111\u00f4 th\u1ecb d\u1ef1 ki\u1ebfn h\u00ecnh th\u00e0nh trong t\u01b0\u01a1ng lai theo quy ho\u1ea1ch h\u1ec7 th\u1ed1ng \u0111\u00f4 th\u1ecb v\u00e0 n\u00f4ng th\u00f4n, \u0111\u01b0\u1ee3c \u0111\u1ea7u t\u01b0 x\u00e2y d\u1ef1ng t\u1eebng b\u01b0\u1edbc \u0111\u1ea1t c\u00e1c ti\u00eau ch\u00ed c\u1ee7a \u0111\u00f4 th\u1ecb theo quy \u0111\u1ecbnh c\u1ee7a ph\u00e1p lu\u1eadt.",
+                    "score": 1.0,
+                    "summary": "\u0110\u1ecbnh ngh\u0129a v\u1ec1 \u0111\u00f4 th\u1ecb m\u1edbi.",
+                    "extraction": "\u0110\u00f4 th\u1ecb m\u1edbi l\u00e0 \u0111\u00f4 th\u1ecb d\u1ef1 ki\u1ebfn h\u00ecnh th\u00e0nh trong t\u01b0\u01a1ng lai theo quy ho\u1ea1ch h\u1ec7 th\u1ed1ng \u0111\u00f4 th\u1ecb v\u00e0 n\u00f4ng th\u00f4n, \u0111\u01b0\u1ee3c \u0111\u1ea7u t\u01b0 x\u00e2y d\u1ef1ng t\u1eebng b\u01b0\u1edbc \u0111\u1ea1t c\u00e1c ti\u00eau ch\u00ed c\u1ee7a \u0111\u00f4 th\u1ecb theo quy \u0111\u1ecbnh c\u1ee7a ph\u00e1p lu\u1eadt."
+                }
+            ],
+            "prompt": "Instruction: Write an accurate, engaging, and concise answer for the given question. Use an unbiased and journalistic tone. \n\nQuestion: \u0110\u00f4 th\u1ecb m\u1edbi \u0111\u01b0\u1ee3c \u0111\u1ecbnh ngh\u0129a nh\u01b0 th\u1ebf n\u00e0o trong Lu\u1eadt Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb?\n\nAnswer:",
+            "output": "According to the Urban Planning Law in Vietnam, a new urban area is defined as a residential area that is planned and developed with modern infrastructure and facilities to meet the needs of a growing population. These areas are designated for residential, commercial, and public purposes, with a focus on sustainable development and efficient land use. The law outlines specific criteria and regulations for the planning and management of new urban areas to ensure orderly growth and quality living standards for residents."
+        },
+        {
+            "id": "LUAT_QH_DT_003",
+            "question": "Quy ho\u1ea1ch chi ti\u1ebft l\u00e0 g\u00ec?",
+            "answer": [
+                [
+                    "Quy ho\u1ea1ch chi ti\u1ebft l\u00e0 vi\u1ec7c ph\u00e2n chia v\u00e0 x\u00e1c \u0111\u1ecbnh ch\u1ec9 ti\u00eau s\u1eed d\u1ee5ng \u0111\u1ea5t quy ho\u1ea1ch \u0111\u00f4 th\u1ecb, y\u00eau c\u1ea7u qu\u1ea3n l\u00fd ki\u1ebfn tr\u00fac, c\u1ea3nh quan c\u1ee7a t\u1eebng l\u00f4 \u0111\u1ea5t; b\u1ed1 tr\u00ed c\u00f4ng tr\u00ecnh h\u1ea1 t\u1ea7ng k\u1ef9 thu\u1eadt, c\u00f4ng tr\u00ecnh h\u1ea1 t\u1ea7ng x\u00e3 h\u1ed9i nh\u1eb1m c\u1ee5 th\u1ec3 h\u00f3a n\u1ed9i dung c\u1ee7a quy ho\u1ea1ch ph\u00e2n khu ho\u1eb7c quy ho\u1ea1ch chung."
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "16",
+                    "title": "V\u0102N PH\u00d2NG QU\u1ed0C H\u1ed8I - LU\u1eacT QUY HO\u1ea0CH \u0110\u00d4 TH\u1eca",
+                    "text": "9. Quy ho\u1ea1ch chi ti\u1ebft l\u00e0 vi\u1ec7c ph\u00e2n chia v\u00e0 x\u00e1c \u0111\u1ecbnh ch\u1ec9 ti\u00eau s\u1eed d\u1ee5ng \u0111\u1ea5t quy ho\u1ea1ch \u0111\u00f4 th\u1ecb, y\u00eau c\u1ea7u qu\u1ea3n l\u00fd ki\u1ebfn tr\u00fac, c\u1ea3nh quan c\u1ee7a t\u1eebng l\u00f4 \u0111\u1ea5t;",
+                    "score": 0.9,
+                    "summary": "M\u1ed9t ph\u1ea7n \u0111\u1ecbnh ngh\u0129a quy ho\u1ea1ch chi ti\u1ebft.",
+                    "extraction": "Quy ho\u1ea1ch chi ti\u1ebft l\u00e0 vi\u1ec7c ph\u00e2n chia v\u00e0 x\u00e1c \u0111\u1ecbnh ch\u1ec9 ti\u00eau s\u1eed d\u1ee5ng \u0111\u1ea5t quy ho\u1ea1ch \u0111\u00f4 th\u1ecb, y\u00eau c\u1ea7u qu\u1ea3n l\u00fd ki\u1ebfn tr\u00fac, c\u1ea3nh quan c\u1ee7a t\u1eebng l\u00f4 \u0111\u1ea5t;"
+                }
+            ],
+            "prompt": "Instruction: Write an accurate, engaging, and concise answer for the given question. Use an unbiased and journalistic tone. \n\nQuestion: Quy ho\u1ea1ch chi ti\u1ebft l\u00e0 g\u00ec?\n\nAnswer:",
+            "output": "Detailed planning, or \"quy ho\u1ea1ch chi ti\u1ebft\" in Vietnamese, refers to the process of creating specific, detailed plans for the development of a particular area or project. These plans include detailed information on land use, infrastructure, building designs, and environmental considerations. Detailed planning helps ensure that development projects are carried out in an organized and sustainable manner, taking into account the needs of the community and the surrounding environment."
+        },
+        {
+            "id": "LUAT_QH_DT_004",
+            "question": "Ai l\u00e0 c\u01a1 quan c\u00f3 th\u1ea9m quy\u1ec1n ph\u00ea duy\u1ec7t quy ho\u1ea1ch \u0111\u00f4 th\u1ecb?",
+            "answer": [
+                [
+                    "\u1ee6y ban nh\u00e2n d\u00e2n c\u1ea5p t\u1ec9nh c\u00f3 th\u1ea9m quy\u1ec1n ph\u00ea duy\u1ec7t quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i \u0111\u1eb7c bi\u1ec7t, lo\u1ea1i I, lo\u1ea1i II, lo\u1ea1i III; \u1ee6y ban nh\u00e2n d\u00e2n c\u1ea5p huy\u1ec7n c\u00f3 th\u1ea9m quy\u1ec1n ph\u00ea duy\u1ec7t quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i IV, lo\u1ea1i V."
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "24",
+                    "title": "V\u0102N PH\u00d2NG QU\u1ed0C H\u1ed8I - LU\u1eacT QUY HO\u1ea0CH \u0110\u00d4 TH\u1eca",
+                    "text": "\u1ee6y ban nh\u00e2n d\u00e2n c\u1ea5p t\u1ec9nh c\u00f3 th\u1ea9m quy\u1ec1n ph\u00ea duy\u1ec7t quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i \u0111\u1eb7c bi\u1ec7t, lo\u1ea1i I, lo\u1ea1i II, lo\u1ea1i III; \u1ee6y ban nh\u00e2n d\u00e2n c\u1ea5p huy\u1ec7n c\u00f3 th\u1ea9m quy\u1ec1n ph\u00ea duy\u1ec7t quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i IV, lo\u1ea1i V.",
+                    "score": 1.0,
+                    "summary": "Th\u00f4ng tin v\u1ec1 c\u01a1 quan c\u00f3 th\u1ea9m quy\u1ec1n ph\u00ea duy\u1ec7t quy ho\u1ea1ch \u0111\u00f4 th\u1ecb.",
+                    "extraction": "\u1ee6y ban nh\u00e2n d\u00e2n c\u1ea5p t\u1ec9nh c\u00f3 th\u1ea9m quy\u1ec1n ph\u00ea duy\u1ec7t quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i \u0111\u1eb7c bi\u1ec7t, lo\u1ea1i I, lo\u1ea1i II, lo\u1ea1i III; \u1ee6y ban nh\u00e2n d\u00e2n c\u1ea5p huy\u1ec7n c\u00f3 th\u1ea9m quy\u1ec1n ph\u00ea duy\u1ec7t quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i IV, lo\u1ea1i V."
+                }
+            ],
+            "prompt": "Instruction: Write an accurate, engaging, and concise answer for the given question. Use an unbiased and journalistic tone. \n\nQuestion: Ai l\u00e0 c\u01a1 quan c\u00f3 th\u1ea9m quy\u1ec1n ph\u00ea duy\u1ec7t quy ho\u1ea1ch \u0111\u00f4 th\u1ecb?\n\nAnswer:",
+            "output": "The agency responsible for approving urban planning in Vietnam is the People's Committee of each province or centrally-run city. They have the authority to review and approve urban planning projects to ensure they align with local development goals and regulations."
+        },
+        {
+            "id": "LUAT_QH_DT_005",
+            "question": "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i \u0111\u1eb7c bi\u1ec7t \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho nh\u1eefng \u0111\u00f4 th\u1ecb n\u00e0o?",
+            "answer": [
+                [
+                    "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i \u0111\u1eb7c bi\u1ec7t \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho c\u00e1c \u0111\u00f4 th\u1ecb trung t\u00e2m qu\u1ed1c gia, c\u00e1c \u0111\u00f4 th\u1ecb l\u1edbn c\u00f3 vai tr\u00f2 quan tr\u1ecdng trong ph\u00e1t tri\u1ec3n kinh t\u1ebf - x\u00e3 h\u1ed9i c\u1ee7a c\u1ea3 n\u01b0\u1edbc."
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "30",
+                    "title": "V\u0102N PH\u00d2NG QU\u1ed0C H\u1ed8I - LU\u1eacT QUY HO\u1ea0CH \u0110\u00d4 TH\u1eca",
+                    "text": "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i \u0111\u1eb7c bi\u1ec7t \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho c\u00e1c \u0111\u00f4 th\u1ecb trung t\u00e2m qu\u1ed1c gia, c\u00e1c \u0111\u00f4 th\u1ecb l\u1edbn c\u00f3 vai tr\u00f2 quan tr\u1ecdng trong ph\u00e1t tri\u1ec3n kinh t\u1ebf - x\u00e3 h\u1ed9i c\u1ee7a c\u1ea3 n\u01b0\u1edbc.",
+                    "score": 1.0,
+                    "summary": "Th\u00f4ng tin v\u1ec1 quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i \u0111\u1eb7c bi\u1ec7t.",
+                    "extraction": "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i \u0111\u1eb7c bi\u1ec7t \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho c\u00e1c \u0111\u00f4 th\u1ecb trung t\u00e2m qu\u1ed1c gia, c\u00e1c \u0111\u00f4 th\u1ecb l\u1edbn c\u00f3 vai tr\u00f2 quan tr\u1ecdng trong ph\u00e1t tri\u1ec3n kinh t\u1ebf - x\u00e3 h\u1ed9i c\u1ee7a c\u1ea3 n\u01b0\u1edbc."
+                }
+            ],
+            "prompt": "Instruction: Write an accurate, engaging, and concise answer for the given question. Use an unbiased and journalistic tone. \n\nQuestion: Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i \u0111\u1eb7c bi\u1ec7t \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho nh\u1eefng \u0111\u00f4 th\u1ecb n\u00e0o?\n\nAnswer:",
+            "output": "Special urban planning is applied to cities or areas with unique characteristics or specific needs, such as historical significance, cultural preservation, environmental protection, or economic development. These plans aim to address the distinctive challenges and opportunities of these particular urban areas, ensuring sustainable development and enhancing the quality of life for residents."
+        },
+        {
+            "id": "LUAT_QH_DT_006",
+            "question": "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i I \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho nh\u1eefng \u0111\u00f4 th\u1ecb n\u00e0o?",
+            "answer": [
+                [
+                    "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i I \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho c\u00e1c \u0111\u00f4 th\u1ecb c\u00f3 vai tr\u00f2 quan tr\u1ecdng trong ph\u00e1t tri\u1ec3n kinh t\u1ebf - x\u00e3 h\u1ed9i c\u1ee7a m\u1ed9t v\u00f9ng ho\u1eb7c c\u1ee7a c\u1ea3 n\u01b0\u1edbc."
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "36",
+                    "title": "V\u0102N PH\u00d2NG QU\u1ed0C H\u1ed8I - LU\u1eacT QUY HO\u1ea0CH \u0110\u00d4 TH\u1eca",
+                    "text": "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i I \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho c\u00e1c \u0111\u00f4 th\u1ecb c\u00f3 vai tr\u00f2 quan tr\u1ecdng trong ph\u00e1t tri\u1ec3n kinh t\u1ebf - x\u00e3 h\u1ed9i c\u1ee7a m\u1ed9t v\u00f9ng ho\u1eb7c c\u1ee7a c\u1ea3 n\u01b0\u1edbc.",
+                    "score": 1.0,
+                    "summary": "Th\u00f4ng tin v\u1ec1 quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i I.",
+                    "extraction": "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i I \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho c\u00e1c \u0111\u00f4 th\u1ecb c\u00f3 vai tr\u00f2 quan tr\u1ecdng trong ph\u00e1t tri\u1ec3n kinh t\u1ebf - x\u00e3 h\u1ed9i c\u1ee7a m\u1ed9t v\u00f9ng ho\u1eb7c c\u1ee7a c\u1ea3 n\u01b0\u1edbc."
+                }
+            ],
+            "prompt": "Instruction: Write an accurate, engaging, and concise answer for the given question. Use an unbiased and journalistic tone. \n\nQuestion: Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i I \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho nh\u1eefng \u0111\u00f4 th\u1ecb n\u00e0o?\n\nAnswer:",
+            "output": "Urban planning type I is applied to cities with a population of over 500,000 inhabitants in Vietnam. These cities are considered major urban areas that require comprehensive planning and development strategies to manage their growth and infrastructure effectively."
+        },
+        {
+            "id": "LUAT_QH_DT_007",
+            "question": "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i II \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho nh\u1eefng \u0111\u00f4 th\u1ecb n\u00e0o?",
+            "answer": [
+                [
+                    "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i II \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho c\u00e1c \u0111\u00f4 th\u1ecb c\u00f3 vai tr\u00f2 quan tr\u1ecdng trong ph\u00e1t tri\u1ec3n kinh t\u1ebf - x\u00e3 h\u1ed9i c\u1ee7a m\u1ed9t t\u1ec9nh ho\u1eb7c th\u00e0nh ph\u1ed1 tr\u1ef1c thu\u1ed9c trung \u01b0\u01a1ng."
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "42",
+                    "title": "V\u0102N PH\u00d2NG QU\u1ed0C H\u1ed8I - LU\u1eacT QUY HO\u1ea0CH \u0110\u00d4 TH\u1eca",
+                    "text": "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i II \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho c\u00e1c \u0111\u00f4 th\u1ecb c\u00f3 vai tr\u00f2 quan tr\u1ecdng trong ph\u00e1t tri\u1ec3n kinh t\u1ebf - x\u00e3 h\u1ed9i c\u1ee7a m\u1ed9t t\u1ec9nh ho\u1eb7c th\u00e0nh ph\u1ed1 tr\u1ef1c thu\u1ed9c trung \u01b0\u01a1ng.",
+                    "score": 1.0,
+                    "summary": "Th\u00f4ng tin v\u1ec1 quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i II.",
+                    "extraction": "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i II \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho c\u00e1c \u0111\u00f4 th\u1ecb c\u00f3 vai tr\u00f2 quan tr\u1ecdng trong ph\u00e1t tri\u1ec3n kinh t\u1ebf - x\u00e3 h\u1ed9i c\u1ee7a m\u1ed9t t\u1ec9nh ho\u1eb7c th\u00e0nh ph\u1ed1 tr\u1ef1c thu\u1ed9c trung \u01b0\u01a1ng."
+                }
+            ],
+            "prompt": "Instruction: Write an accurate, engaging, and concise answer for the given question. Use an unbiased and journalistic tone. \n\nQuestion: Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i II \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho nh\u1eefng \u0111\u00f4 th\u1ecb n\u00e0o?\n\nAnswer:",
+            "output": "Urban planning type II is applied to urban areas with a population of over 50,000 inhabitants and above. This type of urban planning focuses on comprehensive development strategies, land use management, infrastructure planning, and environmental considerations to ensure sustainable growth and efficient resource utilization in urban areas."
+        },
+        {
+            "id": "LUAT_QH_DT_008",
+            "question": "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i III \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho nh\u1eefng \u0111\u00f4 th\u1ecb n\u00e0o?",
+            "answer": [
+                [
+                    "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i III \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho c\u00e1c \u0111\u00f4 th\u1ecb c\u00f3 vai tr\u00f2 quan tr\u1ecdng trong ph\u00e1t tri\u1ec3n kinh t\u1ebf - x\u00e3 h\u1ed9i c\u1ee7a m\u1ed9t huy\u1ec7n ho\u1eb7c qu\u1eadn."
+                ]
+            ],
+            "docs": [
+                {
+                    "id": "48",
+                    "title": "V\u0102N PH\u00d2NG QU\u1ed0C H\u1ed8I - LU\u1eacT QUY HO\u1ea0CH \u0110\u00d4 TH\u1eca",
+                    "text": "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i III \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho c\u00e1c \u0111\u00f4 th\u1ecb c\u00f3 vai tr\u00f2 quan tr\u1ecdng trong ph\u00e1t tri\u1ec3n kinh t\u1ebf - x\u00e3 h\u1ed9i c\u1ee7a m\u1ed9t huy\u1ec7n ho\u1eb7c qu\u1eadn.",
+                    "score": 1.0,
+                    "summary": "Th\u00f4ng tin v\u1ec1 quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i III.",
+                    "extraction": "Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i III \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho c\u00e1c \u0111\u00f4 th\u1ecb c\u00f3 vai tr\u00f2 quan tr\u1ecdng trong ph\u00e1t tri\u1ec3n kinh t\u1ebf - x\u00e3 h\u1ed9i c\u1ee7a m\u1ed9t huy\u1ec7n ho\u1eb7c qu\u1eadn."
+                }
+            ],
+            "prompt": "Instruction: Write an accurate, engaging, and concise answer for the given question. Use an unbiased and journalistic tone. \n\nQuestion: Quy ho\u1ea1ch \u0111\u00f4 th\u1ecb lo\u1ea1i III \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho nh\u1eefng \u0111\u00f4 th\u1ecb n\u00e0o?\n\nAnswer:",
+            "output": "Urban planning type III is applied to towns and cities in Vietnam with a population ranging from 20,000 to 100,000 residents. This type of urban planning focuses on medium-sized urban areas and aims to promote sustainable development, efficient land use, and improved living standards for residents."
+        }
+    ],
+    "total_cost": 0.001947
+}
